@@ -15,15 +15,22 @@
   </head>
   <body>
     <header>
-    </header>
+        <h1>CLARE HENDERSON</h1>
+        <nav>
+          <a href="#about-me-row">About Me</a>
+          <a href="#my-work-row">Work</a>
+          <a href="#contact-me">Contact Me</a>
+          <a href="./assets/photos/resume.png" target="_blank">Resume</a>
+        </nav>
+      </header>
     <main class="container-fluid">
 
-        <div id="jumbotron-id" class="jumbotron">
+        <!-- <div id="jumbotron-id" class="jumbotron">
             <h1>Clare Henderson</h1>
-        </div>
+        </div> -->
 
-        <div id="my-work-row" class="row">
-          <div id="column-1" class="col-sm-2">
+        <div id="my-work-row" class="row" style="background-color: lightgrey;">
+          <div id="column-1" class="col-sm-2 align-self-center" style="background-color: lightblue;">
               <h1>My work</h1>
           </div>
           <div id="column-2" class="col-sm-5" style="background-color: lightgreen;">
@@ -35,22 +42,22 @@
           <div id="column-3" class="col-sm-5">
             <div id="two-columns" class="row">
                 <div id="inner-column-1" class="col-sm-6">
-                    <a href="google.com" target="_blank">
-                        <img class="photo" src="assets/photos/weather photo.jpg">
-                        <p class="small-caption">Caption</p>
+                    <a href="https://henderson2350.github.io/work-day/" target="_blank">
+                        <img class="photo" src="assets/photos/work day.png">
+                        <p class="small-caption">Workday Scheduler</p>
                     </a>
-                    <a href="google.com" target="_blank">
-                        <img class="photo" src="assets/photos/weather photo.jpg">
-                        <p class="small-caption2">Caption</p>
+                    <a href="https://henderson2350.github.io/password-generator/" target="_blank">
+                        <img class="photo" src="assets/photos/password generator.png">
+                        <p class="small-caption2">Password Generator</p>
                     </a>                </div>
                 <div id="inner-column-2" class="col-sm-6">
-                    <a href="google.com" target="_blank">
-                        <img class="photo" src="assets/photos/weather photo.jpg">
-                        <p class="small-caption">Caption</p>
+                    <a href="https://henderson2350.github.io/code-refactor/" target="_blank">
+                        <img class="photo" src="assets/photos/code refactor.png">
+                        <p class="small-caption">Code Refactor</p>
                     </a>
-                    <a href="google.com" target="_blank">
-                        <img class="photo" src="assets/photos/weather photo.jpg">
-                        <p class="small-caption2">Caption</p>
+                    <a href="https://henderson2350.github.io/code-quiz/" target="_blank">
+                        <img class="photo" src="./assets/photos/code quiz.png">
+                        <p class="small-caption2">Code Quiz</p>
                     </a>     
                 </div>
             </div>
@@ -58,11 +65,11 @@
         </div>
 
         <div id="about-me-row" class="row">
-            <div class="col-sm-2" style="background-color: blueviolet;">
+            <div id="about-me-title-div" class="col-sm-2 align-self-center" style="background-color: blueviolet;">
                 <h2>About me</h2>
             </div>
-            <div id="about-me-div" class="col-sm-8" style="background-color: brown;">
-                <p id="about-me-text"> 
+            <div id="about-me-div" class="col-sm-8 align-self-center" style="background-color: brown;">
+                <p id="about-me-text" class="class-center"> 
                     I am a graduate of the University of Virginia. I discovered my
                     interest in programming my final semester at UVa (fall 2020), when I
                     took Introduction to Programming, in which I became fluent in
@@ -78,7 +85,9 @@
                     APIs.
                 </p>
             </div>
-            <div class="col-sm-2" style="background-color: cornflowerblue;"></div>
+            <div id="photo-me-div" class="col-sm-2 align-self-center" style="background-color: cornflowerblue;">
+                <img id="photo-me" src="assets/photos/P1155761 copy 2.jpg">
+            </div>
         </div>
 
         <div id="contact-me">

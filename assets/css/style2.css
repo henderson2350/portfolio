@@ -1,3 +1,15 @@
+header {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(231, 214, 231);
+    color:rgb(68, 40, 68)
+}
+
+nav a {
+    padding: 5px;
+    color:rgb(68, 40, 68)
+}
 .photo {
     margin: 20px;
     width: 200px;
@@ -5,19 +17,15 @@
 }
 
 #my-work-row {
-    /* background-color: lightgreen; */
     margin: 20px
-}
-#jumbotron-id {
-    text-align: center;
 }
 
 #column-1 {
-    background-color: lightblue;
+    text-align: right
 }
 
 #column-2 {
-    text-align: center;
+    text-align: right;
     border-left: solid black;
     border-width: 10px;
     position: relative
@@ -44,6 +52,9 @@
     margin: 20px
 }
 
+#about-me-title-div {
+    text-align: right
+}
 #about-me-div {
     border-left: solid black;
     border-width: 10px;
@@ -53,6 +64,18 @@
 
 #about-me-text {
     padding: 20px;
+}
+
+#photo-me-div {
+    text-align: center;
+}
+
+#photo-me {
+    width: 180px;
+    height: 180px;
+    background-color: salmon;
+;
+
 }
 
 #contact-me-txt {
