@@ -1,19 +1,25 @@
+body {
+    background-color: rgb(248, 248, 248);
+}
 header {
     margin: 20px;
     padding: 20px;
     text-align: center;
     background-color: rgb(231, 214, 231);
-    color:rgb(68, 40, 68)
+    color: black;
+    border: solid rgb(68, 40, 68);
 }
 
 nav a {
     padding: 5px;
     color:rgb(68, 40, 68)
 }
+
 .photo {
     margin: 20px;
-    width: 200px;
-    height: 200px
+    width: 250px;
+    height: 250px;
+    border: solid rgb(68, 40, 68)
 }
 
 #my-work-row {
@@ -25,26 +31,25 @@ nav a {
 }
 
 #column-2 {
-    text-align: right;
-    border-left: solid black;
+    text-align: center;
+    border-left: solid rgb(68, 40, 68);
     border-width: 10px;
     position: relative
 }
 
 #large-photo {
     margin: 20px;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
+    border: solid rgb(68, 40, 68)
 }
 
 #inner-column-1 {
-    background: lightcoral;
     text-align: center;
     position: relative
 }
 
 #inner-column-2 {
-    background: lightgoldenrodyellow;
     text-align: center;
 }
 
@@ -53,12 +58,13 @@ nav a {
 }
 
 #about-me-title-div {
-    text-align: right
+    text-align: right;
 }
+
 #about-me-div {
-    border-left: solid black;
+    border-left: solid rgb(68, 40, 68);
     border-width: 10px;
-    border-right: solid black;
+    border-right: solid rgb(68, 40, 68);
     border-width: 10px
 }
 
@@ -73,7 +79,7 @@ nav a {
 #photo-me {
     width: 180px;
     height: 180px;
-    background-color: salmon;
+    border: solid rgb(68, 40, 68)
 ;
 
 }
@@ -105,14 +111,14 @@ nav a {
     border: solid rgb(68, 40, 68);
     padding: 5px;
     position: absolute;
-    right: 36px;
-    top: 363px
+    right: 32px;
+    top: 424px
 }
 
 .small-caption {
     position: absolute;
-    top: 178px;
-    right: 36px;
+    top: 225px;
+    right: 12px;
     background-color:rgb(231, 214, 231);
     border: solid rgb(68, 40, 68);
     color:rgb(68, 40, 68);
@@ -121,8 +127,8 @@ nav a {
 
 .small-caption2 {
     position: absolute;
-    top: 419px;
-    right: 36px;
+    top: 513px;
+    right: 12px;
     background-color:rgb(231, 214, 231);
     border: solid rgb(68, 40, 68);
     color:rgb(68, 40, 68);
