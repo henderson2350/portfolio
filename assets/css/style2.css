@@ -1,0 +1,107 @@
+.photo {
+    margin: 20px;
+    width: 200px;
+    height: 200px
+}
+
+#my-work-row {
+    /* background-color: lightgreen; */
+    margin: 20px
+}
+#jumbotron-id {
+    text-align: center;
+}
+
+#column-1 {
+    background-color: lightblue;
+}
+
+#column-2 {
+    text-align: center;
+    border-left: solid black;
+    border-width: 10px;
+    position: relative
+}
+
+#large-photo {
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+#inner-column-1 {
+    background: lightcoral;
+    text-align: center;
+    position: relative
+}
+
+#inner-column-2 {
+    background: lightgoldenrodyellow;
+    text-align: center;
+}
+
+#about-me-row {
+    margin: 20px
+}
+
+#about-me-div {
+    border-left: solid black;
+    border-width: 10px;
+    border-right: solid black;
+    border-width: 10px
+}
+
+#about-me-text {
+    padding: 20px;
+}
+
+#contact-me-txt {
+    text-align: center;
+}
+
+#links {
+    justify-content: center
+}
+
+#links a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px
+}
+
+#phone-number {
+    text-align: center;
+    color:rgb(68, 40, 68)
+}
+
+/* CAPTIONS */
+#large-caption {
+    color:rgb(68, 40, 68);
+    font-size: 40px;
+    background-color: rgb(231, 214, 231);
+    border: solid rgb(68, 40, 68);
+    padding: 5px;
+    position: absolute;
+    right: 36px;
+    top: 363px
+}
+
+.small-caption {
+    position: absolute;
+    top: 178px;
+    right: 36px;
+    background-color:rgb(231, 214, 231);
+    border: solid rgb(68, 40, 68);
+    color:rgb(68, 40, 68);
+    padding: 2px
+}
+
+.small-caption2 {
+    position: absolute;
+    top: 419px;
+    right: 36px;
+    background-color:rgb(231, 214, 231);
+    border: solid rgb(68, 40, 68);
+    color:rgb(68, 40, 68);
+    padding: 2px
+}
