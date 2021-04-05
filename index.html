@@ -4,147 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clare Henderson</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Clare Henderson</title>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
   </head>
   <body>
     <header>
       <h1>CLARE HENDERSON</h1>
       <nav>
-        <a href="#about-me">About Me</a>
-        <a href="#my-work">Work</a>
+        <a href="#about-me-row">About Me</a>
+        <a href="#my-work-row">Work</a>
         <a href="#contact-me">Contact Me</a>
         <a href="./assets/photos/resume.png" target="_blank">Resume</a>
       </nav>
     </header>
-
     <main class="container-fluid">
-      <div id="my-work" class="row">
-        <div id="my-work-head" class="col-sm-2">
+      <div id="my-work-row" class="row">
+        <div id="column-1" class="col-sm-2 align-self-center">
           <h1>My work</h1>
-      </div>
-
-          <div id="link-imgs" class="col-sm-10">
-            <div class="row">
-
-              <!-- <div id="img-1-div" class="col"> -->
-                <a id="img-1-div" class="float-left mr-3"
-                  href="https://joshwrightdev.github.io/Project-1/"
-                  target="_blank"
-                >
-                  <img id="img-size-1" src="./assets/photos/weather photo.jpg" />
-                  <div id="large-caption-div">
-                    <p id="large-caption">Space Dashboard</p>
-                  </div>
-                </a>
-              <!-- </div>
-  
-              <div id="small-imgs" class="col"> -->
-                <div class="max-width" id="img-2-div">
-                  <a
-                    href="https://henderson2350.github.io/code-refactor/"
-                    target="_blank"
-                  >
-                    <img
-                      id="img-size-2"
-                      src="./assets/photos/code refactor.png"
-                    />
-                    <p id="small-caption">Code Refactor</p>
-                  </a>
-                </div>
-  
-                <div class="max-width" id="img-3-div">
-                  <a
-                    href="https://henderson2350.github.io/work-day/"
-                    target="_blank"
-                  >
-                    <img id="img-size-2" src="./assets/photos/work day.png" />
-                    <p id="small-caption">Workday Scheduler</p>
-                  </a>
-                </div>
-  
-                <div id="img-4-div" class="max-width">
-                  <a
-                    href="https://henderson2350.github.io/code-quiz/"
-                    target="_blank"
-                  >
-                    <img id="img-size-2" src="./assets/photos/code quiz.png" />
-                    <p id="small-caption">Coding Quiz</p>
-                  </a>
-                </div>
-  
-                <div id="img-5-div" class="max-width">
-                  <a
-                    href="https://henderson2350.github.io/password-generator/"
-                    target="_blank"
-                  >
-                    <img
-                      id="img-size-2"
-                      src="./assets/photos/password generator.png"
-                    />
-                    <p id="small-caption">Password Generator</p>
-                  </a>
-                </div>
-  
-                <div id="img-6-div" class="max-width">
-                  <a
-                    href="https://henderson2350.github.io/password-generator/"
-                    target="_blank"
-                  >
-                    <img
-                      id="img-size-2"
-                      src="./assets/photos/password generator.png"
-                    />
-                    <p id="small-caption">Password Generator</p>
-                  </a>
-                </div>
-  
-                <div id="img-7-div" class="max-width">
-                  <a
-                    href="https://henderson2350.github.io/password-generator/"
-                    target="_blank"
-                  >
-                    <img
-                      id="img-size-2"
-                      src="./assets/photos/password generator.png"
-                    />
-                    <p id="small-caption">Password Generator</p>
-                  </a>
-                </div>
-              </div>
         </div>
+        <div id="column-2" class="col-sm-5 align-self-center">
+          <a href="google.com" target="_blank">
+            <img id="large-photo" src="./assets/photos/weather photo.jpg" />
+            <p id="large-caption">Space Dashboard</p>
+          </a>
+        </div>
+        <div id="column-3" class="col-sm-5">
+          <div id="two-columns" class="row">
+            <div id="inner-column-1" class="col-sm-6">
+              <a
+                href="https://henderson2350.github.io/work-day/"
+                target="_blank"
+              >
+                <img class="photo" src="assets/photos/work day.png" />
+                <p class="small-caption">Workday Scheduler</p>
+              </a>
+              <a
+                href="https://henderson2350.github.io/password-generator/"
+                target="_blank"
+              >
+                <img class="photo" src="assets/photos/password generator.png" />
+                <p class="small-caption2">Password Generator</p>
+              </a>
+            </div>
+            <div id="inner-column-2" class="col-sm-6">
+              <a
+                href="https://henderson2350.github.io/code-refactor/"
+                target="_blank"
+              >
+                <img class="photo" src="assets/photos/code refactor.png" />
+                <p class="small-caption">Code Refactor</p>
+              </a>
+              <a
+                href="https://henderson2350.github.io/code-quiz/"
+                target="_blank"
+              >
+                <img class="photo" src="./assets/photos/code quiz.png" />
+                <p class="small-caption2">Code Quiz</p>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="about-me" class="row">
-        <div id="about-me-txt" class="titles col-sm-2 align-self-center">
-          <h1>About<br />me</h1>
+      <div id="about-me-row" class="row">
+        <div id="about-me-title-div" class="col-sm-2 align-self-center">
+          <h1>About me</h1>
         </div>
-        <div class="content col sm-8">
-          <p id="about-p">
-            I am a graduate of the University of Virginia. I discovered my
-            interest in programming my final semester at UVa (fall 2020), when I
-            took Introduction to Programming, in which I became fluent in
-            Python. After excelling in the course, I quickly shifted my career
-            focus to programming, and applied to several bootcamps and MS
-            programs, settling on Georgia Tech’s full-time full stack web
-            development bootcamp, where I am currently a student. I am now
-            proficient in HTML, CSS, Javascript, server-side APIs, and will
-            learn several more skills throughout the remainder of the program.
-            While I am proficient in a variety of things related to programming,
-            my more specific areas of interest and skills include
+        <div id="about-me-div" class="col-sm-8 align-self-center">
+          <p id="about-me-text" class="class-center">
+            My name is Clare Henderson and I am a graduate of the University of
+            Virginia. I discovered my interest in programming my final semester
+            at UVa (fall 2020), when I took Introduction to Programming, in
+            which I became fluent in Python. After excelling in the course, I
+            quickly shifted my career focus to programming, and applied to
+            several bootcamps and MS programs, settling on Georgia Tech’s
+            full-time full stack web development bootcamp, where I am currently
+            a student. I am now proficient in HTML, CSS, Javascript, server-side
+            APIs, and will learn several more skills throughout the remainder of
+            the program. While I am proficient in a variety of things related to
+            programming, my more specific areas of interest and skills include
             object-oriented programming languages, algorithms and server-side
             APIs.
           </p>
         </div>
-        <div id="photo-column" class="col-sm-2 align-self-center">
-          <img id="photo-me" src="./assets/images/P1155761 copy 2.jpg" />
+        <div id="photo-me-div" class="col-sm-2 align-self-center">
+          <img id="photo-me" src="assets/photos/P1155761 copy 2.jpg" />
         </div>
       </div>
 
@@ -153,6 +103,7 @@
           <h1>Contact me</h1>
         </div>
       </div>
+
       <div id="links" class="row">
         <a href="mailto: henderson2350@gmail.com" target="_blank">Email</a>
         <a
@@ -162,16 +113,10 @@
         >
         <a href="https://github.com/henderson2350" target="_blank">Github</a>
       </div>
+
       <div id="phone-number">
         <p>+1 404 316 4330</p>
       </div>
     </main>
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/js/script.js"></script>
   </body>
 </html>
